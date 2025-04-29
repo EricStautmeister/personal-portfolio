@@ -5,27 +5,27 @@ import { Button } from '@/components/ui/button';
 
 const blogPosts = [
   {
-    title: 'Getting Started with React Hooks',
-    excerpt: 'Learn how to use React Hooks to manage state and side effects in your functional components.',
+    title: 'Zero Trust Architecture: Beyond the Perimeter',
+    excerpt: 'Exploring how zero trust models are reshaping enterprise security by verifying every access attempt, regardless of source.',
     date: 'April 15, 2023',
     readTime: '5 min read',
-    categories: ['React', 'JavaScript'],
+    categories: ['Network Security', 'Zero Trust'],
     image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=500'
   },
   {
-    title: 'The Power of Tailwind CSS',
-    excerpt: 'Discover how Tailwind CSS can streamline your workflow and help you build beautiful interfaces faster.',
+    title: 'The Rising Threat of Ransomware: Defense Strategies',
+    excerpt: 'Analyzing recent ransomware trends and providing actionable strategies to protect your organization from evolving threats.',
     date: 'March 22, 2023',
     readTime: '4 min read',
-    categories: ['CSS', 'Web Design'],
+    categories: ['Threat Intel', 'Ransomware'],
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=500'
   },
   {
-    title: 'Building a Personal Website with Vite',
-    excerpt: 'A step-by-step guide to creating a modern personal website using Vite and React.',
+    title: 'Securing Cloud Environments: Best Practices',
+    excerpt: 'A comprehensive guide to implementing robust security controls in multi-cloud and hybrid cloud environments.',
     date: 'February 10, 2023',
     readTime: '8 min read',
-    categories: ['Vite', 'React'],
+    categories: ['Cloud Security', 'DevSecOps'],
     image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500'
   }
 ];

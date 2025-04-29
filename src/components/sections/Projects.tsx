@@ -5,26 +5,26 @@ import { Button } from '@/components/ui/button';
 
 const projects = [
   {
-    title: 'Portfolio Website',
-    description: 'A minimal, dark mode enabled portfolio template built with React and Tailwind CSS.',
+    title: 'Network Defense System',
+    description: 'A comprehensive intrusion detection and prevention system with real-time threat monitoring.',
     image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=500',
-    tags: ['React', 'Tailwind CSS', 'Vite'],
+    tags: ['Python', 'Machine Learning', 'SIEM'],
     demoLink: '#',
     codeLink: '#'
   },
   {
-    title: 'Task Management App',
-    description: 'A full-featured task management application with drag-and-drop functionality.',
+    title: 'Vulnerability Scanner',
+    description: 'Automated vulnerability assessment tool for detecting weaknesses in web applications.',
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=500',
-    tags: ['React', 'TypeScript', 'Redux'],
+    tags: ['Go', 'Docker', 'REST API'],
     demoLink: '#',
     codeLink: '#'
   },
   {
-    title: 'E-commerce Platform',
-    description: 'A responsive e-commerce platform with product filtering and cart functionality.',
+    title: 'Secure Auth Platform',
+    description: 'Zero-trust authentication system with multi-factor authentication and behavioral analysis.',
     image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500',
-    tags: ['Next.js', 'Stripe', 'MongoDB'],
+    tags: ['React', 'Node.js', 'OAuth 2.0'],
     demoLink: '#',
     codeLink: '#'
   }

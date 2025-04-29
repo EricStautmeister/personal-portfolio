@@ -15,11 +15,11 @@ const Hero = () => {
             Jason Smith<span className="text-primary">.</span>
           </h1>
           <h3 className="text-2xl md:text-4xl text-muted-foreground font-medium leading-relaxed">
-            I build things for the web
+            Securing the digital frontier
           </h3>
           <p className="text-muted-foreground text-lg max-w-xl">
-            I'm a web developer specializing in building exceptional digital experiences.
-            Currently, I'm focused on creating accessible, human-centered products.
+            I'm a cybersecurity professional specializing in protecting critical infrastructure and digital assets.
+            Currently, I'm focused on creating secure, resilient systems for the modern threat landscape.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <Button onClick={scrollToProjects} className="rounded-md">

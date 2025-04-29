@@ -45,7 +45,7 @@ const Navbar = ({ activeSection, setActiveSection }: NavbarProps) => {
           onClick={() => scrollToSection('home')}
           className="text-xl font-bold cursor-pointer hover:text-primary transition-colors"
         >
-          Jason Smith
+          Jason:~$
         </a>
         <div className="flex items-center gap-8">
           <ul className="hidden md:flex space-x-8">

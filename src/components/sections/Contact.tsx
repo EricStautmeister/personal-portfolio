@@ -41,10 +41,10 @@ const Contact = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8 animate-fade-in">
-            <h3 className="text-2xl font-semibold">Get in Touch</h3>
+            <h3 className="text-2xl font-semibold">Secure Channel</h3>
             <p className="text-lg text-muted-foreground">
-              I'm currently available for freelance work. If you have a project that you want to get started,
-              think you need my help with something, or just want to say hello, then get in touch.
+              I'm currently available for security consultations and assessments. If you have concerns about your organization's
+              security posture, need guidance on compliance, or want to discuss potential vulnerabilities, let's establish a secure line of communication.
             </p>
             
             <div className="space-y-6 pt-4">
@@ -54,8 +54,8 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">hello@jasonsmith.dev</p>
+                    <h4 className="font-medium">Encrypted Email</h4>
+                    <p className="text-muted-foreground">secure@jasonsmith.dev</p>
                   </div>
                 </CardContent>
               </Card>
@@ -66,7 +66,7 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Phone</h4>
+                    <h4 className="font-medium">Secure Line</h4>
                     <p className="text-muted-foreground">+1 (555) 123-4567</p>
                   </div>
                 </CardContent>
@@ -145,7 +145,7 @@ const Contact = () => {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Your message"
+                    placeholder="Please provide details about your security concerns..."
                     required
                     rows={5}
                     className="rounded-md resize-none"
@@ -153,7 +153,7 @@ const Contact = () => {
                 </div>
                 
                 <Button type="submit" className="w-full rounded-md">
-                  Send Message
+                  Send Secure Message
                 </Button>
               </form>
             </CardContent>

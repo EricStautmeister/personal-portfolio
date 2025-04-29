@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold">Jason Smith</h2>
-            <p className="text-muted-foreground mt-2">Web Developer & Designer</p>
+            <p className="text-muted-foreground mt-2">Cybersecurity Specialist</p>
           </div>
           
           <Button 
@@ -49,7 +49,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            &copy; {currentYear} Jason Smith. All rights reserved.
+            &copy; {currentYear} Jason Smith. All rights reserved. Secured with end-to-end encryption.
           </p>
           
           <div className="flex space-x-6">
@@ -63,7 +63,7 @@ const Footer = () => {
               GitHub
             </a>
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              Dribbble
+              Defcon
             </a>
           </div>
         </div>
