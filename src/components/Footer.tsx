@@ -16,8 +16,8 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">Jason Smith</h2>
-            <p className="text-muted-foreground mt-2">Cybersecurity Specialist</p>
+            <h2 className="text-2xl font-bold">Eric Stautmeister</h2>
+            <p className="text-muted-foreground mt-2">Junior Cybersecurity Analyst</p>
           </div>
           
           <Button 
@@ -49,21 +49,25 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            &copy; {currentYear} Jason Smith. All rights reserved. Secured with end-to-end encryption.
+            &copy; {currentYear} Eric Stautmeister. All rights reserved. Secured with end-to-end encryption.
           </p>
           
           <div className="flex space-x-6">
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              Twitter
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a 
+              href="https://www.linkedin.com/in/eric-stautmeister/" 
+              className="text-muted-foreground hover:text-foreground transition-colors" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               LinkedIn
             </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a 
+              href="https://github.com/EricStautmeister" 
+              className="text-muted-foreground hover:text-foreground transition-colors" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               GitHub
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              Defcon
             </a>
           </div>
         </div>

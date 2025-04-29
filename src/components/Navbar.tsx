@@ -45,11 +45,12 @@ const Navbar = ({ activeSection, setActiveSection }: NavbarProps) => {
           onClick={() => scrollToSection('home')}
           className="text-xl font-bold cursor-pointer hover:text-primary transition-colors"
         >
-          Jason:~$
+          Eric:~$
         </a>
         <div className="flex items-center gap-8">
           <ul className="hidden md:flex space-x-8">
-            {['about', 'projects', 'blog', 'contact'].map((section) => (
+            {/* {['about', 'projects', 'blog', 'contact'].map((section) => ( */}
+            {['about'].map((section) => (
               <li key={section}>
                 <a
                   onClick={() => scrollToSection(section)}
