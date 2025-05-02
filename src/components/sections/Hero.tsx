@@ -18,7 +18,7 @@ const Hero = () => {
             Securing the digital frontier
           </h3> */}
           <p className="text-muted-foreground text-lg max-w-xl">
-            I'm a junior cybersecurity analyst working for swisscom, where I specialize in
+            I'm a junior cybersecurity analyst working for Swisscom, where I specialize in
             analysing alerts and incidents to ensure the security of our systems.
             Currently, I'm focused on increasing my skills by taking on more responsibilities,
             expanding my knowledge in cybersecurity, and contributing to impactful projects.
