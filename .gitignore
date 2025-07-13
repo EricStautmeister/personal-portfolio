@@ -22,3 +22,6 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# Deployment guides
+DEPLOYMENT_GUIDE.txt
